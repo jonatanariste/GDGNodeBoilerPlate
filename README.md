@@ -5,20 +5,9 @@ How to install all
 
 in ubuntu
 
-vi install.sh
-press i
+copy install.sh into server google compute engine
 
-copy this code
-
-############
-
-#!/bin/bash
-sudo apt-get update
-sudo apt-get install git nodejs npm
-git clone https://github.com/jonatanariste/GDGNodeBoilerPlate.git
-cd GDGNodeBoilerPlate; npm install
-
-##########
+run sh install.sh
 
 later change de private ip in start.sh
 
