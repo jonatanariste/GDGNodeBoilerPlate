@@ -1,15 +1,11 @@
 #gdgnode boiler plate
 
+how to install GDGNodeBoilerPlate in Google Compute Engine (Ubuntu)
 
-How to install all
-
-in ubuntu
-
-copy install.sh into server google compute engine
+wget https://github.com/jonatanariste/GDGNodeBoilerPlate/raw/master/install.sh
 
 run sh install.sh
 
-later change de private ip in start.sh
+change de private ip in start.sh
 
-
-run the command sh start.sh
+run the command "sh start.sh"
