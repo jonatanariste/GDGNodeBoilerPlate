@@ -6,12 +6,9 @@ wget https://github.com/jonatanariste/GDGNodeBoilerPlate/raw/master/install.sh
 
 run:
 
-sh install.sh
+source install.sh
 
-cd GDGNodeBoilerPlate
 
-sudo npm install
-
-change de private ip in start.sh
+change the PRIVATE_IP
 
 run the command "sh start.sh"
