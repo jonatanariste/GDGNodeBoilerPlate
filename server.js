@@ -34,6 +34,10 @@
   		res.download(file); // Envio el file
 	});
 	
+	app.get('/styleguide', function(req, res) {
+               res.sendfile('styleguide.html'); // cargo styleguide
+       });
+	
 	
 
 	// listen (start app with node server.js) ======================================
