@@ -7,9 +7,11 @@ How to install #GDGNodeBoilerPlate in Google Compute Engine (Ubuntu)
 
 1 - Create a new instance VM (Ubuntu 14.04 Trusty)
 
+2 - Fork the proyect
+
 2 - Open SSH console
 
-3 - wget https://github.com/jonatanariste/GDGNodeBoilerPlate/raw/master/install.sh
+3 - wget https://github.com/YOURNICKNAME/GDGNodeBoilerPlate/raw/master/install.sh  (change YOURNICKNAME for the nick name of github )
 
 4 - run: source install.sh
 
