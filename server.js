@@ -31,7 +31,11 @@
   		res.download(file); // Envio el file
 	});
 
-		
+	app.use(express.static(__dirname + '/styles'));
+	app.use(express.static(__dirname + '/scripts'));
+	app.use(express.static(__dirname + '/images'));
+	app.use(express.static(__dirname + '/fonts'));
+
 	// listen (start app with node server.js) ======================================
 	app.listen(8080, argv.fe_ip);
 	console.log("App listening on port 8080");
