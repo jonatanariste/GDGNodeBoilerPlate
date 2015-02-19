@@ -1,3 +1,7 @@
+git config --global user.email "jorgeucano@gmail.com"
+git config --global user.name "jorgeucano"
+
+
 git checkout -b feature
 #  ( making changes ... )
 git commit -m "done with feature"
