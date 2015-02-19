@@ -30,8 +30,9 @@
   		var file = __dirname + '/GDGNodeBoilerPlate.zip';
   		res.download(file); // Envio el file
 	});
+	app.use(express.static(path.join(__dirname, 'public')));
 
-	app.use('/styles', express.static(__dirname + '/public'));
+	app.use('/styles', express.static(__dirname + '/styles'));
 	app.use('/scripts', express.static(__dirname + '/scripts'));
 	app.use('/images', express.static(__dirname + '/images'));
 	app.use('/fonts', express.static(__dirname + '/fonts'));
