@@ -1,4 +1,4 @@
-# [![Web Starter Kit](https://cloud.githubusercontent.com/assets/170270/3343034/ceef6e92-f899-11e3-96b9-5d9d69d97a00.png)](https://github.com/google/web-starter-kit/releases/latest)
+# [![Web Starter Kit](portada.jpg)](https://github.com/google/web-starter-kit/releases/latest)
 
 
 ## GDG Node Boiler Plate for Google Cloud Platform
@@ -6,10 +6,15 @@
 How to install #GDGNodeBoilerPlate in Google Compute Engine (Ubuntu)
 
 1 - Create a new instance VM (Ubuntu 14.04 Trusty)
+
 2 - Open SSH console
+
 3 - wget https://github.com/jonatanariste/GDGNodeBoilerPlate/raw/master/install.sh
+
 4 - run: source install.sh
+
 5 - Be happy. 
+
 
 
 ## Command Code:
@@ -31,4 +36,5 @@ GDG Node Boiler Plate is inspired by [Mobile HTML5 Boilerplate](http://html5boil
 ## Created by:
 
 Jorge Cano Manager GDG Buenos Aires @jorgeucano
+
 Jonatan Ariste Manager GDG Buenos Aires @jonatanariste
