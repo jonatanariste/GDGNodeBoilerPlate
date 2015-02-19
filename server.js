@@ -31,7 +31,7 @@
   		res.download(file); // Envio el file
 	});
 
-	app.use('/styles', express.static(__dirname + '/styles'));
+	app.use('/styles', express.static(__dirname + '/public'));
 	app.use('/scripts', express.static(__dirname + '/scripts'));
 	app.use('/images', express.static(__dirname + '/images'));
 	app.use('/fonts', express.static(__dirname + '/fonts'));
