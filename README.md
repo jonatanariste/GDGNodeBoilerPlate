@@ -51,11 +51,13 @@ Jonatan Ariste Manager GDG Buenos Aires @jonatanariste
 
 Cómo instalar #GDGNodeBoilerPlate en Google Compute Engine (Ubuntu)
 
-1 - Crear una nueva máquina virtual (Ubuntu 14.04 de confianza)
+1 - Crear una nueva máquina virtual (Ubuntu 14.04 de trusty)
 
 2 - forkear el proyecto
 
-3 - cambiar la IP privada, por la privada IP de su maquina virtual
+3 - Dentro del archivo start.sh, debe cambiar la IP privada, por la privada IP de su maquina virtual (dentro de su de google console.developers.google.com encontrara los parametros de su maquina virtual, ahi encontrara su ip privada)
+
+3.1 - Modificar el archivo install.sh, el usuario de git, en la linea 4 debe cambiar PUTYOURUSERGITHERE, por su apado de github.
 
 4 - Abra la consola ssh de google
 
